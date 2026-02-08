@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photography Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="js/gallery.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body onload="addTabindex()">
+
+    <header>
+        <h1>Captured Moments</h1>
+        <p>An interactive gallery, just for you. </p>
+    </header>
+
+    <main>
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <div class="gallery-track">
+            <img class="preview" alt="Fresh Coffee Beans" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Mountain Peak" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Ocean Sunset" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Autumn Forest" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="City View" src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+
+            <img class="preview" alt="Desert Dunes" src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0" 
+                 onmouseover="upDate(this)" onmouseout="unDo()" 
+                 onfocus="upDate(this)" onblur="unDo()">
+        </div>
+    </main>
+
+</body>
+</html>
